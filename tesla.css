@@ -186,7 +186,7 @@ a{
             color:black;
         }
     #article1_bgimg{
-        background-image:url("tesla7.jpg");
+        background-image:url("https://tesla-cdn.thron.com/delivery/public/image/tesla/b03da2fc-ecaa-4554-8df9-8f73e411f360/bvlatuR/std/2880x1800/model-3-hero-desktop");
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
@@ -203,7 +203,7 @@ a{
        display:flex;
            
           align-items: center;
-           background-image:url("models.jpg");
+           background-image:url("https://tesla-cdn.thron.com/delivery/public/image/tesla/32e5e0f3-5c04-42ef-8f8f-c6b1c26f8a9e/bvlatuR/std/2880x1800/ms-main-hero-desktop");
            background-repeat: no-repeat;
            background-position:center;
            background-size: cover;
