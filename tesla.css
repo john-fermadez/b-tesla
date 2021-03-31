@@ -1,0 +1,583 @@
+html{
+    font-family:"ubuntu";
+}
+body{
+
+    margin:0;
+ }
+a{
+    text-decoration:none;
+}
+#img{
+    width:70px;
+    height:70px;
+    position:fixed;
+    right:1140px;
+    }
+    
+    #topbox
+    {position:fixed;
+        width:100%;
+      /*  background-image:url("save2.jpg");*/
+        background-size: cover;
+        background-attachment: fixed;
+        height:79px;
+        border:1px solid #dbd6d6;
+      margin:0;
+       background-color:rgb(255, 255, 255,0.0095);
+       display:flex;
+       justify-content: center;
+    align-items: center;
+    }
+   
+ 
+    #topbox #searchpart{
+    position:relative;
+    top:8px;
+    }
+    
+    #topbox a
+    {
+     font-size: 26px; 
+     position: relative;
+    }
+    #ultop { list-style-type: none;
+      
+        display:flex;
+     
+        flex:1;
+        justify-content: center;
+     
+        align-items:center;
+        width:50%;
+        height:100%;
+        margin: 0;
+       /* border:1px solid white;*/
+    }
+    li{
+        margin:0px 30px;
+    }
+
+    #topbox #teslaname #anchortagteslaname{ 
+       color:white;
+        text-decoration:none; 
+        font-weight:700;
+        margin:0;
+       padding:0;
+        transition:color 1s; 
+    }
+   
+ #topbox #teslas #anchortagteslas{ 
+    color:rgb(14, 14, 14,0.7);
+    font-family:"roboto";
+    border:0.1em solid rgb(0, 0, 0,0.23);
+    font-weight: 700;
+        text-decoration:none;
+       font-style: normal;
+        font-size:larger;
+        margin:0;
+        border-radius:0.4em;
+        margin-top:9px;
+        padding:2em;
+        padding-left:5px;
+        padding:0.150em;
+        transition: background-color ease-in-out,border-radius 0.8s;
+        
+    }
+    
+    #topbox #tesla3 #anchortagtesla3{ 
+        color:rgb(14, 14, 14,0.7);
+        font-family:"roboto";
+        border:0.1em solid rgb(0, 0, 0,0.23);
+        font-weight: 700;
+        text-decoration:none;
+       font-style: normal;
+        font-size:larger;
+        margin:0;
+        border-radius:0.4em;
+        margin-top:9px;
+        padding:2em;
+        padding-left:5px;
+        padding:0.150em;
+        transition: background-color  ease-in-out,border-radius 0.8s;
+       
+    }
+    
+     #topbox #teslax #anchortagteslax{ 
+        
+        color:rgb(14, 14, 14,0.7);
+        font-family:"roboto";
+        border:0.1em solid rgb(0, 0, 0,0.23);
+        font-weight: 700;
+        text-decoration:none;
+       font-style: normal;
+        font-size:larger;
+        margin:0;
+        border-radius:0.4em;
+        margin-top:9px;
+        padding:2em;
+        padding-left:5px;
+        padding:0.150em;
+        transition:background-color  ease-in-out, border-radius 0.8s;
+       
+    }
+    
+  #topbox #teslay #anchortagteslay{ 
+     
+    color:rgb(14, 14, 14,0.7);
+    font-family:"roboto";
+    border:0.1em solid rgb(0, 0, 0,0.23);
+    font-weight: 700;
+     text-decoration:none;
+    font-style: normal;
+     font-size:larger;
+     margin:0;
+     border-radius:0.4em;
+     margin-top:9px;
+   
+     padding:2em;
+     padding-left:5px;
+     padding:0.150em;
+     transition: background-color  ease-in-out,border-radius 0.8s;
+     
+    }
+     #topbox  #teslaname #anchortagteslaname:hover{
+        color: rgb(0, 1, 0,0.5);
+    }
+    #topbox #teslas #anchortagteslas:hover{
+        background-color: rgb(0, 255, 0);
+      font-family:"ubuntu";
+        color:rgb(255, 255, 255);
+        font-weight:bolder;
+        border-radius:1em;
+        border-color: rgb(255, 255, 255,0);
+    }
+    #topbox #tesla3 #anchortagtesla3:hover{
+        background-color: rgb(0, 255, 0);
+        font-family:"ubuntu";
+        color:rgb(255, 255, 255);
+        font-weight:bolder;
+        border-radius:1em;
+        border-color: rgb(255, 255, 255,0);
+    }
+     #topbox #teslax #anchortagteslax:hover{
+        background-color: rgb(0, 255, 0);
+        font-family:"ubuntu";
+        color:rgb(255, 255, 255);
+        font-weight:bolder;
+        border-radius:1em;
+        border-color: rgb(255, 255, 255,0);
+    }
+     #topbox #teslay #anchortagteslay:hover{
+        background-color: rgb(0, 255, 0);
+        font-family:"ubuntu";
+        color:rgb(255, 255, 255);
+        font-weight:bolder;
+        border-radius:1em;
+        border-color: rgb(255, 255, 255,0);
+    }
+
+    .box:active
+    {
+        background-color:black;
+        color:white;
+    }
+    a:active{
+            color:black;
+        }
+    #article1_bgimg{
+        background-image:url("tesla7.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        background-image: fixed;
+         margin:0;
+        width:100%;
+        height:750px;
+    }
+    .article2_bgimg{
+        
+        height:750px;
+           width: 100%;
+           justify-content: center;
+       display:flex;
+           
+          align-items: center;
+           background-image:url("models.jpg");
+           background-repeat: no-repeat;
+           background-position:center;
+           background-size: cover;
+           background-image: fixed;
+           
+       
+       }
+    .panel{border-radius:15px;
+        background-color: rgb(255, 255, 255,0.095);
+      
+       display:flex;
+       width:100%;
+       max-width:960px;
+       height:480px;
+       flex-direction:row;
+       justify-content:center;
+       
+    }
+    
+    .container
+    {  padding:10px 0px;
+        display:flex;
+       flex-direction: column;
+       border-right:1px solid rgb(255, 255, 255,0.095);
+      justify-content: flex-end;
+      align-items:center;
+      
+    }
+    .container:last-child{
+        border-right:none;
+    }
+   
+    
+    #clipart1
+    {
+        width:227px;
+        height:140px;
+        border-radius:15px;
+    }
+    #clipart2
+    { width:227px;
+        height:140px;
+        border-radius:15px;
+    }
+    #clipart3
+    { width:227px;
+        height:140px;
+        border-radius:15px;
+    }
+    .ulfeatures{
+        list-style-type:none;
+        padding:0;
+        margin:0;  
+        height:285px;
+        letter-spacing: 1px;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        border:none;
+        
+    }
+    .model{
+        
+        color:rgb(0, 0, 0,0.6);
+        transition:color 1s;
+    }
+    .features-list{
+    
+        padding:2px 50px; 
+        border-top:1px solid  rgb(255, 255, 255,0.099);
+        line-height: 1.5;
+        color:rgb(255, 255, 255);
+        font-weight: 700;
+        font-size: 13.5px;
+    }
+   
+    .order
+    {
+      margin-top:15px;
+      color: white;
+      border: 2px solid white;
+      padding:10px 40px;
+      cursor: pointer;
+      border-radius:2em;
+      transition: background-color 200ms ease-in-out;
+        
+    }
+    .order:hover,.order:focus{
+        color:black;
+        background-color: rgb(255, 255, 255,0.9);
+        border-color:rgb(255, 255, 255,0);
+    }
+    #next:hover
+    {   background-color: rgb(29, 125, 252);
+      
+        box-shadow:8px 8px 15px 0px rgb(129, 129, 131) ;
+        color:white;
+        letter-spacing:1px;
+        font-weight:bold;
+        transform:translateY(-0.25em);
+        /*transform:scale(1.1);*/
+    }
+    #nextdiv
+    {    
+        display:flex;
+        width: 100%;
+        height:110px;
+       display:flexbox;
+       justify-content:flex-end;
+       align-items: flex-end;
+       align-content: flex-end;
+    }
+    #next{/*hijack*/
+       
+        /*transform:translateX(1185px);*/
+      
+        border:1px solid rgb(0, 0, 0);
+        text-align: center;
+        padding:8px;
+        background-color:#127eeb;
+        color:black;
+        font-weight:700;
+        font-size:9px;
+        position: fixed;
+        cursor: pointer;
+        transition: background-color,color,transform,box-shadow, 1s;
+        
+    }
+    
+    input[type="text"]{
+        
+        font-family:"ubuntu";
+        width:200px;
+        padding:5px;
+        background-color:rgb(255, 255, 255,0);
+    transition: border-radius 0.8s,box-shadow 1s;
+        color:black;
+        border:1px solid silver;
+        /*border-radius:7px;*/
+    }
+    input[type=text]:hover{
+        border:1px solid rgb(255, 255, 255,0.45) ;
+       border-radius: 6px;
+        box-shadow:8px 8px 15px 0px rgb(129, 129, 131) ;
+    }
+  
+    input[type="button"]{
+        font-family:"ubuntu";
+        letter-spacing:1px;
+        width:100px;
+        font-weight:bold;
+       border:1px solid black;
+       background-color:  #127eeb;
+       color:black;
+       transition: box-shadow 3s;
+       padding:5px;
+        /*border-radius:10%;*/
+        transition:background-color 1s;
+    }
+    .box2:hover{
+        background-color:#004080;
+        color:rgb(255, 255, 255);
+        box-shadow:8px 8px 15px 0px rgb(129, 129, 131) ;
+    }
+   
+
+@media(max-width:998px)
+{
+    
+    #topbox #teslas #anchortagteslas{
+        border-color:rgb(255, 255, 255,0);
+        font-size:16px;
+        }
+        #topbox #tesla3 #anchortagtesla3{
+            border-color:rgb(255, 255, 255,0);   
+            font-size:16px;
+        }
+        #topbox #teslax #anchortagteslax{
+            border-color:rgb(255, 255, 255,0);
+            font-size:16px;
+        }
+        #topbox #teslay #anchortagteslay{
+            border-color:rgb(255, 255, 255,0);
+            font-size:16px;
+        }
+       
+ 
+  
+
+}
+@media(max-width:944px)
+{   
+    #topbox{
+        flex-direction: column;
+        align-items: flex-start;
+        border:none;
+        height:190px;
+        padding:0;
+        margin:0;
+}
+    #ultop{
+        flex-direction: column;
+        align-items: flex-start;
+        padding:0;
+        margin:0;
+    }
+    #topbox #teslaname #anchortagteslaname
+    {
+       left:34px;
+       font-size: 20px;
+    }
+    #topbox #teslas #anchortagteslas{
+      
+        font-size:17px;
+        }
+        #topbox #tesla3 #anchortagtesla3{
+           
+            font-size:17px;
+        }
+        #topbox #teslax #anchortagteslax{
+            font-size:17px;
+        }
+        #topbox #teslay #anchortagteslay{
+
+            font-size:17px;
+        }
+}
+@media (max-width:900px)
+{body{
+    background-color: cornflowerblue;
+}
+    .article2_bgimg{
+    
+        width:100%;
+        align-items:center;
+        height:1700px;
+    display:flex;
+       
+        background-image:url("modely.jpg");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        background-image: fixed;
+        
+    
+    }
+    .panel{border-radius:15px;
+        background-color: rgb(255, 255, 255,0.095);
+      height:1550px;
+       display:flex;
+       width:50%;
+       max-width:960px;
+       flex-direction:column;
+       align-items:center;
+    }
+    
+    .container
+    {  padding:6px 6px;
+        display:flex;
+       align-items:center;
+        flex-direction: column;
+    }
+    .container:last-child{
+        border-bottom:none;
+    }
+    
+    #clipart1
+    {
+        width:310px;
+        height:200px;
+        border-radius:15px;
+    }
+    #clipart2
+    { width:325px;
+        height:200px;
+        border-radius:15px;
+    }
+    #clipart3
+    { width:320px;
+        height:200px;
+        border-radius:15px;
+    }
+    .ulfeatures{
+        list-style-type:none;
+        padding:0;
+        margin:0;  
+        height:260px;
+        letter-spacing: 1px;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        border-bottom:2px solid rgb(255, 255, 255,0.099);
+    }
+    .model{
+        
+        color:rgb(0, 0, 0,0.6);
+        transition:color 1s;
+    }
+    .features-list{
+    
+        padding:6px 50px; 
+       border-top:1px solid  rgb(255, 255, 255,0.15);
+        color:rgb(255, 255, 255);
+        font-weight: 700;
+        font-size: 13.5px;
+    }
+   
+    .order
+    {
+      margin-top:15px;
+      color: white;
+      border: 2px solid white;
+      padding:10px 40px;
+      cursor: pointer;
+      border-radius:2em;
+      transition: background-color 200ms ease-in-out;
+        
+    }
+    .order:hover,.order:focus{
+        color:black;
+        background-color: rgb(255, 255, 255,0.9);
+        border-color:rgb(255, 255, 255,0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
